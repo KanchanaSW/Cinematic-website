@@ -1,6 +1,6 @@
 export const brand = {
-  name: 'SUPERDESIGN',
-  tagline: 'Cinematic digital experiences',
+  name: 'Construction',
+  tagline: 'Cinematic architecture and spatial design',
 }
 
 export const navLinks = [
@@ -13,53 +13,44 @@ export const navLinks = [
 export const cubeFaces = [
   {
     label: 'DEVELOP',
-    image:
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&q=80',
+    image: '/images/cube/develop.jpg',
   },
   {
     label: 'DESIGN',
-    image:
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80',
+    image: '/images/cube/design.jpg',
   },
   {
     label: 'STRATEGY',
-    image:
-      'https://images.unsplash.com/photo-1557683316-973673baf926?w=800&q=80',
+    image: '/images/cube/strategy.jpg',
   },
   {
     label: 'DELIVER',
-    image:
-      'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80',
+    image: '/images/cube/deliver.jpg',
   },
 ]
 
 export const caseStudies = {
   title: 'CASE STUDIES',
   featured: {
-    title: 'Neon Commerce Platform',
-    image:
-      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80',
+    title: 'Skyline Tower Residences',
+    image: '/images/projects/featured.jpg',
   },
   projects: [
     {
-      title: 'Aura Brand System',
-      image:
-        'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80',
+      title: 'Harbor Glass Pavilion',
+      image: '/images/projects/aura.jpg',
     },
     {
-      title: 'Pulse Mobile App',
-      image:
-        'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80',
+      title: 'Metro Line Transit Hub',
+      image: '/images/projects/pulse.jpg',
     },
     {
-      title: 'Vertex Dashboard',
-      image:
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+      title: 'Civic Arts Center',
+      image: '/images/projects/vertex.jpg',
     },
     {
-      title: 'Lumen Identity',
-      image:
-        'https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80',
+      title: 'Northgate Office Campus',
+      image: '/images/projects/lumen.jpg',
     },
   ],
 }
@@ -104,7 +95,7 @@ export const footer = {
     { label: 'Twitter', href: '#' },
     { label: 'Instagram', href: '#' },
     { label: 'LinkedIn', href: '#' },
-    { label: 'Email', href: 'mailto:hello@superdesign.com' },
+    { label: 'Email', href: 'mailto:hello@construction.com' },
   ],
-  copyright: '© 2026 SUPERDESIGN. ALL RIGHTS RESERVED.',
+  copyright: '© 2026 Construction. ALL RIGHTS RESERVED.',
 }

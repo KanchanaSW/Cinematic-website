@@ -22,7 +22,7 @@ export function CubeFace({
         loading={eager ? 'eager' : 'lazy'}
         className="h-full w-full object-cover"
       />
-      <div className="absolute inset-0 flex items-center justify-center bg-black/20 backdrop-blur-[2px]">
+      <div className="absolute inset-0 flex items-center justify-center bg-black/10">
         <span className="text-2xl font-bold tracking-[0.2em] uppercase md:text-3xl">
           {label}
         </span>
